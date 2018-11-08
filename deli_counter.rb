@@ -18,6 +18,6 @@ end
 
 def now_serving(arr)
   if arr.size == 0
-    puts 
+    puts "There is nobody"
   end
 end
