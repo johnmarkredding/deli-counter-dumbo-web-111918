@@ -12,10 +12,6 @@ def line(arr)
 end
 
 def take_a_number(arr, customer)
-  if arr == []
-    arr << customer
-    puts "Welcome, #{customer}. You are number #{1} in line."
-  else
-    
-  end
+  arr << customer
+  puts "Welcome, #{customer}. You are number #{arr.size + 1} in line."
 end
