@@ -12,5 +12,5 @@ def line(arr)
 end
 
 def take_a_number(arr, customer)
-  arr
+  arr << customer
 end
