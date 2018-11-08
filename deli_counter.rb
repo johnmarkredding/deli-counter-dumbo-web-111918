@@ -15,3 +15,7 @@ def take_a_number(arr, customer)
   arr << customer
   puts "Welcome, #{customer}. You are number #{arr.size} in line."
 end
+
+def now_serving
+  
+end
