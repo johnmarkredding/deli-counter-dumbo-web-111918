@@ -13,4 +13,5 @@ end
 
 def take_a_number(arr, customer)
   arr << customer
+  "Welcome, #{customer}. You are number #{1} in line."
 end
